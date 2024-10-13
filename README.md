@@ -3,11 +3,9 @@
 ## Test de base
 1) Commandes intégrées :
 > echo:
-<code>
-echo Hello World
-echo $USER
-echo "Hello    World"
-</code>
+- echo Hello World
+- echo $USER
+- echo "Hello    World"
 
 >  cd:
 cd /
