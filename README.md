@@ -52,13 +52,14 @@
 
 ## Tests avancés
 1) Heredoc : (<<)
+```
 cat << EOF
 1 ligne
 2 ligne
 ...
 EOF
-
-2) Signaux : Ctrl+C, Ctrl+D, et Ctrl+\.
+```
+3) Signaux : Ctrl+C, Ctrl+D, et Ctrl+\.
 - Ctrl+C: interrompre
 - Ctrl+D: EOF
 - Ctrl+\: quitter
