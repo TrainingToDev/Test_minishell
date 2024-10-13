@@ -8,47 +8,47 @@
 - echo "Hello    World"
 
 >  cd:
-cd /
-cd ..
-cd -
-cd non_existent_directory
+- cd /
+- cd ..
+- cd -
+- cd non_existent_directory
 
 > pwd: (plusieurs changements de répertoire)
 
 > export:
-export VAR=value
-export VAR="value with spaces"
-export VAR=value1 VAR2=value2
+- export VAR=value
+- export VAR="value with spaces"
+- export VAR=value1 VAR2=value2
 
 > unset:
-unset VAR
-unset VAR (after use in command)
+- unset VAR
+- unset VAR (after use in command)
 
 > env:(show environnement variable.)
 
 > exit:
-exit
-exit 42
+- exit
+- exit 42
 
 2) Redirections :
 > redirections de sortie (>):
-echo Hello > file.txt
-ls > file.txt
+- echo Hello > file.txt
+- ls > file.txt
 
 > redirections d’entrée (<):
-cat < file.txt
+- cat < file.txt
 
 > redirections doubles (>>):
-echo Hello >> file.txt
+- echo Hello >> file.txt
 
 3) Pipes :
 > pipes (|)
 - simple:
-ls | grep file
-cat file.txt | wc -l
+-> ls | grep file
+-> cat file.txt | wc -l
 
 -Multiples:
-cat file.txt | grep Hello | wc -l
+-> cat file.txt | grep Hello | wc -l
 
 ## Tests avancés
 1) Heredoc : (<<)
