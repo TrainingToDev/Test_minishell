@@ -44,11 +44,11 @@
 3) Pipes :
 > pipes (|)
 - simple:
--> ls | grep file
--> cat file.txt | wc -l
+-- ls | grep file
+-- cat file.txt | wc -l
 
--Multiples:
--> cat file.txt | grep Hello | wc -l
+- Multiples:
+-- cat file.txt | grep Hello | wc -l
 
 ## Tests avancés
 1) Heredoc : (<<)
