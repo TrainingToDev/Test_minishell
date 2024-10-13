@@ -44,11 +44,11 @@
 3) Pipes :
 > pipes (|)
 - simple:
--- ls | grep file
--- cat file.txt | wc -l
+  - ls | grep file
+  - cat file.txt | wc -l
 
 - Multiples:
--- cat file.txt | grep Hello | wc -l
+  - cat file.txt | grep Hello | wc -l
 
 ## Tests avancés
 1) Heredoc : (<<)
@@ -59,21 +59,21 @@ cat << EOF
 EOF
 
 2) Signaux : Ctrl+C, Ctrl+D, et Ctrl+\.
-Ctrl+C pour interrompre une commande.
-Ctrl+D pour envoyer un EOF.
-Ctrl+\ pour quitter une commande.
+- Ctrl+C: interrompre
+- Ctrl+D: EOF
+- Ctrl+\: quitter
 
 3) Wildcards : (*, ?).
-ls *
-ls *.txt
-echo *
+- ls *
+- ls *.txt
+- echo *
 
 
 ## Tests manuels
 > Erreurs de syntaxe :Gestion d'erreurs de syntaxe.
 - Erreurs de syntaxe :
-echo "unclosed quote
-ls | | grep
+  - echo "unclosed quote
+  - ls | | grep
 
 > Spécificités du OS
 
